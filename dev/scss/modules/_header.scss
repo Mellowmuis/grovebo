@@ -1,0 +1,115 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.Header {
+  background-image: url("../img/img-header-bg.png");
+  background-size: cover;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+.Slider {
+	visibility: hidden;
+}
+.header-img{
+  width:100%;
+  display:block;
+  -webkit-box-shadow: -7px -1px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -7px -1px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: -7px -1px 20px -5px rgba(0,0,0,0.75);
+  z-index:900;
+}
+.sticker{
+  float:right;
+  z-index:999;
+  margin-top: -100px;
+  position: relative;
+}
+.top-slider{
+  float:right;
+  margin-right:0px;
+  margin-top: -185px;
+}
+.bx-viewport{
+  height:182px;
+  z-index:-2;
+}
+@media all and (max-width: 1070px) {
+  .Slider{
+    display:none;
+  }
+  .top-slider{
+    background-image: url("../img/slider1.png");
+    height:185px;
+  }
+}
+@media all and (max-width: 500px) {
+  .sticker{
+    display:none;
+  }
+}

@@ -1,0 +1,97 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  font-size: 15px;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-list {
+	display: block;
+	margin: 0px;
+}
+
+.Navigation-link.is-active {
+  text-decoration: underline;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: block;
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
+.side-menu{
+  padding:20px;
+  @include background-image(linear-gradient(to top, #ffffff, #f2f2f2));
+  margin-right: 0px;
+
+  h6{
+    border-bottom:1px dotted black;
+    padding-bottom:20px;
+    color: #a32430;
+  }
+
+  .aside-icon{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .aside-content{
+    margin-top: 40px;
+    
+  }
+  .no-padding{
+      margin-bottom:0px;
+  }
+  a{
+    font-weight: bold;
+  }
+}

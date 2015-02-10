@@ -1,0 +1,91 @@
+body{
+	background-image: url("../img/top-back.png");
+	font-family:arial;
+}
+.Content {
+
+}
+
+.wrapper-content{
+	@include background-image(linear-gradient(to top, #ffffff, #ffffff, #ffffff, #fdd98d));
+	margin-top:-55px;
+
+}
+.main-content{
+	margin-top:-35px;
+	background:white;
+	padding:20px;
+	padding-top:40px;
+	padding-bottom:0px;
+	width:76.76%;
+	background-image: url("../img/blokjes.png");
+	background-repeat:no-repeat;
+	background-position:0px 4px;
+	h3{
+		margin-top: 0px;
+	}
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+ .main-content{
+ 	margin-top:20px !important;
+ } 
+}
+.content-topbox{
+	background:#fff7e5;
+	text-align: center;
+	margin-bottom:20px;
+
+}
+.micheal{
+	background-image: url("../img/micheal.png");
+	background-position: right bottom;
+	background-repeat:no-repeat;
+}
+#input_1_1{
+	width:100%;
+}
+#input_1_2{
+	width:100%;
+}
+#input_1_3{
+	width:100%;
+}
+#input_1_4{
+	width:100%;
+}
+#input_1_5{
+	width:100%;
+}
+.projecten {
+	text-align:center;
+	a{
+		color:black;
+	}
+	.u-gridCol3{
+		img{
+		float:left
+		}
+	}
+}
+@media all and (max-width: 800px) {  
+	.main-content {
+		margin-top: -5px;
+	}
+}
+@media all and (max-width: 500px) {
+  .wrapper-content {
+	margin-top: 0px;
+	}
+
+}
+@media all and (max-width: 321px) {
+.projecten {
+	.u-gridCol3{
+		img{
+		float:none;
+		text-align: center;
+		}
+	}
+}
+}
