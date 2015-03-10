@@ -12,7 +12,8 @@ Template Name: App page
 			<div class="u-gridContainer">
 				<h3><?php the_title(); ?></h3>
 				<aside class="u-gridCol4">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/screenshot.png" class="App-iphone" />
+					<a href="https://play.google.com/store/apps/details?id=com.wGrovebo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/screenshot.jpg" class="App-iphone" /></a>
+					<a href="https://play.google.com/store/apps/details?id=com.wGrovebo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/playstore.jpg" class="App-iphone" /></a>
 				</aside>
 				<article class="Content-article u-gridCol8" id="post-<?php the_ID(); ?>">
 					<?php // the_content(); ?>
@@ -20,11 +21,11 @@ Template Name: App page
 
 					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. 
 
-					<a href="#">Download de app hier</a>
+					<a href="https://play.google.com/store/apps/details?id=com.wGrovebo">Download de app hier</a>
 
 
-
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.png" />
+					<br />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qrcodefinal.png" />
 
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 				</article>

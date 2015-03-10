@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,20 +82,20 @@
             <div class="u-gridContainer">
                 <div class="Nav-toggle u-cf">
                     <a class="Navigation-menuToggle" id="js-navCollapse">
-                        <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                        <svg class="Icon Icon--inline" viewBox="0 0 128 128"> 
                             <use xlink:href="#icon-menu2"></use>
                         </svg>
                     </a>
 
 
                      <div class="Mob-contact-ico">
-                        <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:020-6942755">
+                        <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0117-372045">
                             <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                 <use xlink:href="#icon-phone"></use>
                             </svg>
                         </a>
                     
-                            <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@kaza-wasserij.nl">
+                            <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@grovebo.nl">
                             <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                 <use xlink:href="#icon-envelope"></use>
                             </svg>

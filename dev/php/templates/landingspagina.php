@@ -1,13 +1,12 @@
 <?php
 /*
-Template Name: home2
+Template Name: Landingspagina
 */
 ?>
 <?php include 'includes/menu-header.php'; ?>
 
 <main class="u-gridCol9 main-content">
 	<div class="u-gridContainer">
-		<div class="u-gridRow content-topbox">
 			<article class=" u-girdContainer">
 				<div class="u-gridCol4">
 					<h4>Welkom op de website van</h4>
